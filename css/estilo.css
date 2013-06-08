@@ -1,0 +1,113 @@
+* {
+	font-family:"Trebuchet MS", Helvetica, Arial, sans-serif !important;
+	line-height:1.35;
+	border:0;
+	color:#444;
+	margin:0;
+	padding:0;
+	volume:soft;
+}
+body {
+	font-size:.8125em;
+}
+div.organograma {
+	width:970px;
+	overflow:auto;
+}
+div.organograma * {
+	position:relative;
+	display:block;
+}
+div.organograma strong {
+	display:inline;	
+}
+div.organograma ul {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+div.organograma>ul {
+	overflow:auto;
+}
+div.organograma ul li {
+	background-repeat:no-repeat;
+	list-style:none;
+	margin:auto;
+}
+div.organograma>ul>li {
+	background:url(contornos3.gif) repeat-y center 120px;
+	padding-bottom:220px;
+	text-align:center;
+}
+div.organograma>ul>li>ul {
+	margin:auto;
+}
+div.organograma>ul>li>ul>li {
+	background:url(contornos2.gif) -180px -10px no-repeat;
+	float:left;
+	margin:217px 30px 20px -125px;
+	padding:20px 0 0 120px;
+	width:165px;
+	z-index:999;
+}
+div.organograma a {
+	background:#fff;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff), to(#ededed));
+	background: -webkit-linear-gradient(#ffffff, #ededed);
+	background: -moz-linear-gradient(#ffffff, #ededed);
+	background: -ms-linear-gradient(#ffffff, #ededed);
+	background: -o-linear-gradient(#ffffff, #ededed);
+	background: linear-gradient(#ffffff, #ededed);
+	-pie-background: linear-gradient(#ffffff, #ededed);
+	box-shadow: 0 0 0 2px #ffffff inset;
+	border:1px solid #999;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin:auto;
+	padding: 7px;
+	text-align:left;
+	text-decoration:none;
+	width:160px;
+}
+div.organograma a p, div.organograma a h1 {
+	margin:0 0 .5em;
+}
+div.organograma a h1 {
+	color:#94ABCF;
+	font-size:1em;
+}
+div.organograma>ul>li>ul>li>ul>li {
+	background-image:url(contornos1.gif);
+	background-repeat:repeat;
+	padding-left:10px;
+	background-position: -95px -570px;
+	width:165px;
+	margin-bottom:-4px;
+	overflow:auto;
+	z-index:999;
+}
+div.organograma>ul>li>ul>li>ul>li a {
+	background:none #fff!important;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	float:right;
+	overflow:auto;
+	margin:20px 0 0 -30px;
+	width:140px;
+}
+#as, #sa {
+	background:url(contornos2.gif) center 12px no-repeat;
+	float:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:20px;
+}
+#sa {
+	padding-right:100px;
+}
+#as {
+	padding-left:100px;
+}
